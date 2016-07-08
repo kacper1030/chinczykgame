@@ -1,6 +1,7 @@
 package com.mygdx.chinczyk;
 
 import com.badlogic.gdx.Game;
+import com.mygdx.chinczyk.screens.SplashScreen;
 
 public class ChinczykMain extends Game {
 	public static final int WIDTH = 480;
@@ -18,7 +19,7 @@ public class ChinczykMain extends Game {
 
 	@Override
 	public void create() {
-		
+		this.setScreen(new SplashScreen(this));
 	}
 
 	
