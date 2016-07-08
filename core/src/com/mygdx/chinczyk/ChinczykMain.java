@@ -8,8 +8,6 @@ public class ChinczykMain extends Game {
 
 	private boolean paused;
 	
-	
-	
 	public boolean isPaused() {
 		return paused;
 	}
